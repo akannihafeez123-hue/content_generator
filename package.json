@@ -1,0 +1,20 @@
+{
+  "name": "viral-shorts-engine",
+  "version": "1.0.0",
+  "description": "AI engine that generates viral comedy short-form videos every hour and delivers them to Telegram.",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@fontsource/oswald": "^5.1.0",
+    "@google/genai": "^1.44.0",
+    "express": "^4.21.2",
+    "ffmpeg-static": "^5.2.0",
+    "node-cron": "^3.0.3"
+  }
+}
